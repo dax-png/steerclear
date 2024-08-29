@@ -1,0 +1,126 @@
+body {
+    background-color: whitesmoke;
+    font-style: bold;
+    font-family: Verdana;
+    border: 0px;
+    margin: 0px;
+}
+
+#banner {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#bannerlogo {
+    max-width: clamp(2rem, 5vw, 3rem);
+    max-height: auto;
+}
+
+#maintitle {
+    font-family: "aboreto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    text-align: left;
+    padding: 1%;
+    text-wrap: nowrap;
+}
+
+#line {
+    height: clamp(1rem, 6vw, 5rem);
+    width: auto;
+    padding: 1%;
+}
+
+#globalheader {
+    text-align: right;
+}
+
+#globalnav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    font-family: "sinter", sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 1vw, 1rem);
+    list-style: none;
+    float: inline-end;
+    padding: 6px;
+    margin: 10px;
+
+}
+
+li:hover {
+    color: rgb(72, 66, 44);
+    background-color: rgb(221, 198, 155);
+    font-style: italic;
+    font-weight: 400;
+    font-size: clamp(1rem, 1vw, 1rem);
+    text-align: right;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+#homehead {
+    font-family: "schwarzkopf-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(1rem, 10vw, 9rem);
+    text-align: center;
+}
+
+.para {
+    font-family: "ferryman", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    text-align: justify;
+    padding: 10vw;
+
+}
+
+h1 {
+    font-family: "schwarzkopf-new", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    border: 0cap;
+    margin: 0%;
+}
+
+h2 {
+    font-family: "ferryman", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: clamp(1rem, 3vw, 2rem);
+    text-align: center;
+    margin: auto;
+    border: 0cap;
+    padding: 0%;
+}
+
+h3 {
+    font-family: "ferryman", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(1rem, 4vw, 3rem);
+    text-align: center;
+    padding-top: 3%;
+}
+
+.monarchlist {
+    font-family: "ferryman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(1rem, 3vw, 2rem);
+    text-align: center;
+    padding-top: 0%;
+}
